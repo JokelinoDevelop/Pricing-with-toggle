@@ -2,9 +2,10 @@
     <div class="lg:min-w-[70%] drop-shadow-md relative text-center grid gap-4 px-8 py-12 mt-12" :class="getCardStyles"
         :style="getPadding">
         <p class="text-xl mt-2">{{ props.plan.planName }}</p>
-        <p class="text-7xl flex flex-row justify-center items-center gap-2"><span class="text-5xl">$</span>{{
-            store.priceState ? (props.plan.planPrice / 10).toFixed(2) : props.plan.planPrice
-        }}</p>
+        <p class="lg:text-7xl text-4xl flex flex-row justify-center items-center gap-2"><span
+                class="lg:text-5xl text-3xl">$</span>{{
+                    store.priceState ? (props.plan.planPrice / 10).toFixed(2) : props.plan.planPrice
+                }}</p>
 
         <div class="flex flex-col gap-3">
             <hr>

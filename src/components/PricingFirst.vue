@@ -8,11 +8,11 @@
         <h3 class="text-2xl text-center text-darkGrayishBlue">Our Pricing</h3>
 
         <div class="flex justify-around items-center mt-8 px-8 text-grayishBlue">
-            <p>Annually</p>
+            <p class="lg:text-xl text-sm">Annually</p>
 
             <ToggleButton />
 
-            <p>Monthly</p>
+            <p class="lg:text-xl text-sm">Monthly</p>
         </div>
     </div>
 </template>
