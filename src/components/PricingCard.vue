@@ -1,6 +1,6 @@
 <template>
-    <div class="lg:min-w-[70%] drop-shadow-md relative text-center grid gap-4 px-8 py-12 mt-12" :class="getCardStyles"
-        :style="getPadding">
+    <div class="lg:min-w-[70%] rounded-2xl drop-shadow-md relative text-center grid gap-4 px-8 py-12 mt-12"
+        :class="getCardStyles" :style="getPadding">
         <p class="text-xl mt-2">{{ props.plan.planName }}</p>
         <p class="lg:text-7xl text-4xl flex flex-row justify-center items-center gap-2"><span
                 class="lg:text-5xl text-3xl">$</span>{{

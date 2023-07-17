@@ -25,7 +25,7 @@ const planOptions = ref(
     {
       planName: "Basic",
       planPrice: "199.99",
-      styles: 'rounded-l-2xl text-darkGrayishBlue bg-white',
+      styles: 'lg:rounded-l-2xl text-darkGrayishBlue bg-white',
       buttonStyles: 'bg-last text-white hover:text-last hover:border-black hover:bg-white',
       planDetails: {
         storage: "500 GB",
@@ -36,7 +36,7 @@ const planOptions = ref(
     {
       planName: "Professional",
       planPrice: "249.99",
-      styles: "rounded-2xl text-white bg-gradient-to-b from-first to-last scale-y-110",
+      styles: "lg:rounded-2xl text-white bg-gradient-to-b from-first to-last scale-y-110",
       buttonStyles: 'bg-white hover:text-white hover:border-white hover:bg-last',
       planDetails: {
         storage: "1 TB",
@@ -47,7 +47,7 @@ const planOptions = ref(
     {
       planName: "Master",
       planPrice: "399.99",
-      styles: 'rounded-r-2xl text-darkGrayishBlue bg-white',
+      styles: 'lg:rounded-r-2xl text-darkGrayishBlue bg-white',
       buttonStyles: 'bg-last text-white hover:text-last hover:border-black hover:bg-white',
       planDetails: {
         storage: "2 TB",
